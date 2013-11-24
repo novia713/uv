@@ -1,0 +1,17 @@
+{
+	  "version": "0.1b",
+	  "name": "Rayos UV",
+	  "description": "Predicción de radiación ultravioleta en España",
+	  "icons": {
+	  	"30":  "http://uv.leandro.org/icons/uv.30.png",
+	  	"60":  "http://uv.leandro.org/icons/uv.60.png",
+		"128": "http://uv.leandro.org/icons/uv.128.png"
+	  },
+	  "developer": {
+		"name": "Leandro Vázquez Cervantes",
+		"url": "http://leandro.org"
+	  },
+	  "launch_path": "/index.php?noinstall",
+	  "default_locale": "es",
+	  "installs_allowed_from": ["*"]
+}

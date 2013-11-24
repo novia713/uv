@@ -1,0 +1,97 @@
+
+@font-face {
+  font-family: "MozTT";
+	src: url("http://uv.leandro.org/css/MozTT-Regular.ttf") format ('ttf');
+}
+
+html {
+        font-size: 10px;
+        font-family:Arial,Verdana;
+}
+
+body {
+	font-family: 'MozTT', Sans-serif;
+	margin: 0px;
+	padding: 0px;
+	font-size: 0.7rem !important;
+	background-color:   #FBF2EF;
+}
+
+.eli {
+
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+
+}
+
+#recuadro {
+	padding-right:2rem;
+	padding-left:2rem;
+}
+
+#espera {font-family: 'MozTT', Sans-serif;}
+#valor {
+	z-index:0
+}
+
+#progreso { display:none; }
+
+
+#rojo {
+    background: #b90000;
+    background-image: linear-gradient(#b90000, #FE2E2E);
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+	z-index:3;
+	position:relative;
+	margin-top:0.5rem;
+}
+
+#amarillo {
+    background: ##F4FA58;
+    background-image: linear-gradient(#CF0, khaki);
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+	z-index:3;
+	position:relative;
+	margin-top:0.5rem;
+}
+
+#naranja {
+    background: #FF9500;
+    background-image: linear-gradient(#FCCB00, #FF9500);
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+	z-index:3;
+	position:relative;
+	margin-top:0.5rem;
+}
+
+#verde {
+    background: green;
+    background-image: linear-gradient(#5f9b0a, #4b780a);
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+	z-index:3;
+	position:relative;
+	margin-top:0.5rem;
+}
+
+#morado {
+    background: #8A0886;
+    background-image: linear-gradient(#8A0886, #FA58F4);
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+	z-index:3;
+	position:relative;
+	margin-top:0.5rem;
+}
+
+.pack-end div p strong {position:relative;top:-0.6rem}
